@@ -1,2 +1,10 @@
 /* Structural Pseudo-classes------------------ */
 
+/* li element that is a first child element */
+li:first-child {
+    background: orange;
+}
+
+li:last-child {
+    border: none;
+}
