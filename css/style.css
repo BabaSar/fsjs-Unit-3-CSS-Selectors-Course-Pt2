@@ -8,3 +8,15 @@ li:first-child {
 li:last-child {
     border: none;
 }
+
+/* only:child will target an only child element i.e no sibling elements */
+
+span:only-child {
+    color: #52bab3;
+    font-size: 1.5em;
+}
+
+/* any element that is empty i.e no text/content */
+li:empty{
+    background-color: tomato;
+}
